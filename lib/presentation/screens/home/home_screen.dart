@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/menu/menu_item.dart';
 
 class HomeScreen extends StatelessWidget {
+  static const name = 'home_screen';
   const HomeScreen({Key? key}) : super(key: key);
 
   @override
@@ -43,7 +44,7 @@ class _HomeView extends StatelessWidget {
           ),
           onTap: () {
             // Navigator.pushNamed(context, menuItem.link);
-            context.push(menuItem.link);
+            context.pushNamed( menuItem.name );
           },
         );
       },
