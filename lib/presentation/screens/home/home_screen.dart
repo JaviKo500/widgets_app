@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Flutter + Material 3', style: TextStyle()),
       ),
-      body: _HomeView(),
+      body: const _HomeView(),
     );
   }
 }
@@ -24,19 +24,24 @@ class _HomeView extends StatelessWidget {
     return ListView.builder(
       itemCount: appMenuItems.length,
       itemBuilder: (context, index) {
-        final option = appMenuItems[index];
+        final menuItem = appMenuItems[index];
         return ListTile(
           title: Text(
-            option.title,
+            menuItem.title,
           ),
           subtitle: Text(
-            option.subTitle,
+            menuItem.subTitle,
           ),
-          leading: Icon(option.icon, color: colors.primary,),
-          trailing: Icon(Icons.navigate_next_rounded, color: colors.primary,),
+          leading: Icon(
+            menuItem.icon,
+            color: colors.primary,
+          ),
+          trailing: Icon(
+            Icons.navigate_next_rounded,
+            color: colors.primary,
+          ),
           onTap: () {
-             // TODO: navigete other screen
-            print(option.title);
+            Navigator.pushNamed(context, menuItem.link);
           },
         );
       },
