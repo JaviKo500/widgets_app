@@ -22,7 +22,7 @@ const appMenuItems = <MenuItem>[
   MenuItem(name: CardsScreen.name, title: 'Card', subTitle: 'Container with styles', link: '/cards', icon: Icons.credit_card_outlined,),
   MenuItem(name: ProgressScreen.name, title: 'Progress indicator', subTitle: 'Generic and controls', link: '/progress', icon: Icons.refresh_rounded,),
   MenuItem(name: SnackBarScreen.name, title: 'SnackBars Dialogs', subTitle: 'SnackBars and dialogs', link: '/snack_bar', icon: Icons.notifications_active_rounded,),
-  MenuItem(name: AnimatedScreen.name, title: 'Animated', subTitle: 'Container with styles', link: '/animated', icon: Icons.animation_rounded,),
+  MenuItem(name: AnimatedScreen.name, title: 'Animated Container', subTitle: 'Stateful Widget animated ', link: '/animated', icon: Icons.check_box_outline_blank_rounded,),
+  MenuItem(name: UiControlsScreen.name, title: 'Ui Controls + tiles', subTitle: 'Series control flutter', link: '/ui_controls', icon: Icons.car_rental_rounded,),
   MenuItem(name: AppTutorialScreen.name, title: 'AppTutorial', subTitle: 'Container with styles', link: '/app_tutorial', icon: Icons.app_shortcut_rounded,),
-  MenuItem(name: UiControlsScreen.name, title: 'UiControls', subTitle: 'Container with styles', link: '/ui_controls', icon: Icons.control_camera_rounded,),
 ];
