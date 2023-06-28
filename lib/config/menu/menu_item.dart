@@ -24,5 +24,5 @@ const appMenuItems = <MenuItem>[
   MenuItem(name: SnackBarScreen.name, title: 'SnackBars Dialogs', subTitle: 'SnackBars and dialogs', link: '/snack_bar', icon: Icons.notifications_active_rounded,),
   MenuItem(name: AnimatedScreen.name, title: 'Animated Container', subTitle: 'Stateful Widget animated ', link: '/animated', icon: Icons.check_box_outline_blank_rounded,),
   MenuItem(name: UiControlsScreen.name, title: 'Ui Controls + tiles', subTitle: 'Series control flutter', link: '/ui_controls', icon: Icons.car_rental_rounded,),
-  MenuItem(name: AppTutorialScreen.name, title: 'AppTutorial', subTitle: 'Container with styles', link: '/app_tutorial', icon: Icons.app_shortcut_rounded,),
+  MenuItem(name: AppTutorialScreen.name, title: 'Introduction app', subTitle: 'Tutorial app', link: '/app_tutorial', icon: Icons.app_shortcut_rounded,),
 ];
