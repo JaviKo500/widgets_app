@@ -25,4 +25,5 @@ const appMenuItems = <MenuItem>[
   MenuItem(name: AnimatedScreen.name, title: 'Animated Container', subTitle: 'Stateful Widget animated ', link: '/animated', icon: Icons.check_box_outline_blank_rounded,),
   MenuItem(name: UiControlsScreen.name, title: 'Ui Controls + tiles', subTitle: 'Series control flutter', link: '/ui_controls', icon: Icons.car_rental_rounded,),
   MenuItem(name: AppTutorialScreen.name, title: 'Introduction app', subTitle: 'Tutorial app', link: '/app_tutorial', icon: Icons.app_shortcut_rounded,),
+  MenuItem(name: InfiniteScrollScreen.name, title: 'Infinite scroll and pull', subTitle: 'Infinite list and pull to refresh', link: '/infinite', icon: Icons.list_alt_rounded,),
 ];
