@@ -27,4 +27,5 @@ const appMenuItems = <MenuItem>[
   MenuItem(name: UiControlsScreen.name, title: 'Ui Controls + tiles', subTitle: 'Series control flutter', link: '/ui_controls', icon: Icons.car_rental_rounded,),
   MenuItem(name: AppTutorialScreen.name, title: 'Introduction app', subTitle: 'Tutorial app', link: '/app_tutorial', icon: Icons.app_shortcut_rounded,),
   MenuItem(name: InfiniteScrollScreen.name, title: 'Infinite scroll and pull', subTitle: 'Infinite list and pull to refresh', link: '/infinite', icon: Icons.list_alt_rounded,),
+  MenuItem(name: ThemeChangerScreen.name, title: 'Theme', subTitle: 'Theme changer with Riverpod', link: '/theme', icon: Icons.color_lens_outlined,),
 ];
