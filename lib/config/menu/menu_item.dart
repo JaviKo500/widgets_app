@@ -18,6 +18,7 @@ class MenuItem {
 }
 
 const appMenuItems = <MenuItem>[
+  MenuItem(name: CounterScreen.name, title: 'Counter', subTitle: 'Introduction Riverpod', link: '/counter', icon: Icons.add,),
   MenuItem(name: ButtonsScreen.name, title: 'Buttons', subTitle: 'Many buttons in flutter', link: '/buttons', icon: Icons.smart_button_outlined,),
   MenuItem(name: CardsScreen.name, title: 'Card', subTitle: 'Container with styles', link: '/cards', icon: Icons.credit_card_outlined,),
   MenuItem(name: ProgressScreen.name, title: 'Progress indicator', subTitle: 'Generic and controls', link: '/progress', icon: Icons.refresh_rounded,),
